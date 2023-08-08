@@ -1040,7 +1040,7 @@ LRESULT CALLBACK WndProc( HWND hwnd,
 
 int CALLBACK WinMain( _In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, _In_ LPSTR lpCmdLine, _In_ int nShowCmd )
 {
-    ClearApp app( hInstance, nShowCmd, false );
+    ClearApp app( hInstance, nShowCmd, true );
     try
     {
         app.run();
